@@ -23,6 +23,10 @@ body {
 }
 
 /* стилі шапки  */
+.header{
+  background-color: tomato;
+}
+
 
 .logo-header {
   color: var(--logo-color);
@@ -44,6 +48,9 @@ body {
 
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
+
 }
 
 .site-nav .link {
@@ -83,6 +90,8 @@ body {
 }
 
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 0;
   color: var(--primary-button-color);
   font-weight: 900;
   font-size: 44px;
@@ -90,6 +99,7 @@ body {
   letter-spacing: 0.06em;
   text-align: center;
   text-transform: uppercase;
+  background-color: blueviolet;
 }
 
 .button {
@@ -133,6 +143,11 @@ body {
   text-align: center;
   border: none;
   cursor: pointer;
+  border-radius: 4px;
+  padding: 10px 24px;
+  min-width: 200px;
+  border: 1px solid transparent;
+  margin-top: 30px;
 }
 
 .primary-button:hover,
@@ -212,6 +227,9 @@ body {
   text-align: center;
   border: none;
   cursor: pointer;
+  border-radius: 4px;
+  padding: 6px 22px;
+  border: 1px solid transparent;
 }
 
 .secondary-button:hover,
