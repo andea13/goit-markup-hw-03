@@ -31,7 +31,7 @@ body {
 /* стилі шапки  */
 
 
-.container-header{
+.container.header{
 display: flex;
 align-items: center;
 margin: 0 auto;
@@ -118,7 +118,7 @@ margin-left: 93px;}
 
 .contacts{
   display: flex;
-  margin-left: auto;
+  margin-right: auto;
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -137,9 +137,6 @@ margin-left: 40px;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-
-
-  background-color: aqua;
 }
 
 .contacts .link:hover,
