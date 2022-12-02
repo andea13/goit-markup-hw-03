@@ -31,30 +31,23 @@ body {
 /* стилі шапки  */
 
 
-
-.header-nav{
-margin-left: auto;
-margin-right: auto;
+.container-header{
 display: flex;
 align-items: center;
-min-width: 1200px
-
+margin: 0 auto;
+min-width: 1200px;
 background-color: aqua;
 }
 
 .main-nav{
-  display: flex;
-  align-items: center;
+display: flex;
+align-items: center;
 }
 
-.main-nav:first-child{
-padding-top: 24px;
-padding-bottom: 25px;
-}
 
 .logo-header {
-  margin-top: 24px;
-  margin-bottom: 25px;
+  padding-top: 24px;
+  padding-bottom: 25px;
   margin-left: 215px;
   color: var(--logo-color);
   font-family: "Raleway", sans-serif;
@@ -65,6 +58,8 @@ padding-bottom: 25px;
 }
 
 .logo-part {
+  margin-top: 24px;
+  margin-bottom: 25px;
   color: var(--accent-color);
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -131,10 +126,6 @@ margin-left: 93px;}
 
 .contacts>.item+.item{
 margin-left: 40px;
-}
-
-.contacts.item:first-child{
-margin-left: 354px;
 }
 
 
