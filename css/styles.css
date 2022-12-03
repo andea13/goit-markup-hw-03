@@ -29,20 +29,22 @@ body {
 }
 
 /* стилі шапки  */
-
+.container{
+max-width: 1200px;
+padding-right: 15px;
+padding-left: 15px;
+}
 
 .container.header{
 display: flex;
-align-items: center;
-margin: 0 auto;
-min-width: 1200px;
+align-items: center; 
 }
 
 .main-nav{
 display: flex;
 align-items: center;
+margin-right: 0 auto;
 }
-
 
 .logo-header {
   padding-top: 24px;
@@ -69,6 +71,13 @@ align-items: center;
 
 .site-nav{
 display: flex;
+margin-right: auto;
+margin-left: 93px;
+padding-top: 32px;
+padding-bottom: 32px;
+}
+
+.site-nav.item{
 margin-left: 93px;
 padding-top: 32px;
 padding-bottom: 32px;
@@ -90,10 +99,6 @@ margin-left: 50px;
 .site-nav>.item:not(:last-child){
 margin-right: 50px;
 }
-
-
-.site-nav>.item{
-margin-left: 93px;}
 
 
 .site-nav .link {
@@ -118,7 +123,6 @@ margin-left: 93px;}
 
 .contacts{
   display: flex;
-  margin-right: auto;
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -127,7 +131,9 @@ margin-left: 93px;}
 margin-left: 40px;
 }
 
-
+.contacts.item{
+ margin-left: auto;
+}
 .contacts .link {
   display: block;
   padding-top: 32px;
@@ -146,23 +152,28 @@ margin-left: 40px;
 /* головна частина */
 
 /* герой */
-.hero {
-  background-color: var(--hero-background-color);
-  text-align: center;
+.container .hero {
   margin-bottom: 94px;
+  max-width: 1200px;
+  max-height: 600px;
+  background-color: var(--hero-background-color);
 }
 
 .hero-title {
   margin-top: 0;
   margin-bottom: 30px;
+  padding: 200px, 452px, 280px;
+  max-width: 696px;
   color: var(--primary-button-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  background-color: blueviolet;
+  text-align: center;
 }
+
+
 
 .button {
   font-family: "Roboto", sans-serif;
@@ -187,10 +198,8 @@ margin-left: 40px;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-
-
-  background-color: blueviolet;
 }
+
 
 .section-subtitle.name {
   font-weight: 500;
@@ -213,7 +222,8 @@ margin-left: 40px;
   cursor: pointer;
   border-radius: 4px;
   padding: 10px 24px;
-  min-width: 200px;
+  margin: 200px, 452px, 280px;
+  max-width: 200px;
   border: 1px solid transparent;
 }
 
