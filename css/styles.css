@@ -7,6 +7,7 @@
   --secondary-button-background-color: #f5f4fa;
   --secondary-background-color: #f5f5f5;
   --logo-color: #000000;
+  --header-border: #ECECEC;
   --hero-background-color: #2f303a;
   --portfolio-border: #eeeeee;
   --footer-contact-background: rgba(255, 255, 255, 0.6);
@@ -70,6 +71,7 @@ button {
   padding-right: 15px;
   padding-bottom: 0;
   padding-left: 15px;
+  border-bottom: 1px solid var(--header-border);
 }
 
 .main-nav {
@@ -297,6 +299,7 @@ margin-left: 50px;
 .feature-item {
   text-align: left;
   max-width: 270px;
+
 }
 
 .feature {
