@@ -124,7 +124,7 @@ margin-right: 50px;
 margin-left: 50px;
 } */
 
-.site-nav>.item:not(:last-child) {
+.site-nav > .item:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -156,7 +156,7 @@ margin-left: 50px;
   margin-left: auto;
 }
 
-.contacts>.item+.item {
+.contacts > .item + .item {
   margin-left: 40px;
 }
 
@@ -341,7 +341,7 @@ margin-left: 50px;
   text-align: center;
 }
 
-.card>h3 {
+.card > h3 {
   display: block;
   text-align: center;
 }
@@ -480,7 +480,7 @@ margin-left: 50px;
   margin-right: 0;
 }
 
-.projects>.work-example {
+.projects > .work-example {
   flex-basis: calc((100% - 60px) / 3);
 }
 
